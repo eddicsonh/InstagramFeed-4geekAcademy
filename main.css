@@ -1,0 +1,53 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    
+}
+
+div{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+header h1{
+    text-align: center;
+    margin:0;
+    background-color: white;
+    font-family: 'Fredoka One', cursive;
+}
+
+
+.header{
+    display: inline-flex;
+    width: 100%;
+    font-family: 'Fredoka One', cursive;
+}
+
+.header div:first-child{
+    width: 80%;
+}
+
+.header div:last-child{
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+    font-family: none;
+    color: darkgray;
+}
+
+img {
+    width: 100%;
+    border: ridge;
+    border-radius: 10px;
+}
+
+.description p{
+    padding: 10px;
+    text-align: left;
+}
